@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>영문</title>
+	<meta http-equiv="content-type" content="text-html; charset=utf-8">
+	<!-- tg-scope={"scope":"desktop"} -->
+	<link rel="stylesheet" type="text/css" href="css/desktop.css">
+	<!-- tg-scope={"scope":"mobile", "lang":"ko"} -->
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<style>
+		.toggle-test {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<!-- tg-click={"toggleclass": "toggle-test", "show": ".satomi"} -->
+		<h1>Tangram</h1>
+	</div>
+
+	<!-- tg-attribute={"src":"flag", "width":"flag.width"} -->
+	<img src="img/republic.of.korea.png" width="320">
+
+	<!-- tg-display={"A타입":[]} -->
+	<p>A타입(언어 무관)</p>
+
+	<!-- tg-display=>{"A타입":"ko"} -->
+	<p>A타입(한국어)</p>
+	<p>블록 처리됨</p>
+	<!-- tg-display -->
+
+	<!-- tg-display=>{"A타입":["en"]} -->
+	<p>A타입(영어)</p>
+	<p>블록 처리됨</p>
+	<!-- tg-display -->
+
+	<!-- tg-display={"A타입":["ko"], "B타입":["en"]} -->
+	<p>A타입(한국어) || B타입(영어)</p>
+
+	<!-- tg-click={"show": ".satomi"} -->
+	<button>여기를 누르면 아래 이미지를 표시하거나 감춥니다.</button>
+
+	<img src="img/satomi.jpg" width="191" class="satomi" style="display: none">
+
+	<!-- tg-include=>"include" -->
+	<p>include가 이루어지는 지점(이 요소는 삭제되어야 함)</p>
+	<!-- tg-include -->
+
+	<!-- tg-include=>"include_lang" -->
+	<p>언어 코드에 의해 include가 이루어지는 지점(이 요소는 삭제되어야 함)</p>
+	<!-- tg-include -->
+
+	<!-- tg-lang="en" -->
+	<p>영어인 경우에만 출력</p>
+
+	<div>
+		<!-- tg-text=agile.title -->
+		<h2>애자일 소프트웨어 개발 선언</h2>
+		<div>
+			<!-- tg-text=agile.text1 -->
+			<p>우리는 소프트웨어를 개발하고, 또 다른 사람의 개발을<br>도와주면서 소프트웨어 개발의 더 나은 방법들을 찾아가고<br>있다. 이 작업을 통해 우리는 다음을 가치 있게 여기게 되었다:</p>
+			<!-- tg-text=agile.text2 -->
+			<p>공정과 도구보다 <strong>개인과 상호작용</strong>을<br>포괄적인 문서보다 <strong>작동하는 소프트웨어</strong>를<br>계약 협상보다 <strong>고객과의 협력</strong>을<br>계획을 따르기보다 <strong>변화에 대응하기</strong>를</p>
+			<!-- tg-text=agile.text3 -->
+			<p>가치 있게 여긴다. 이 말은, 왼쪽에 있는 것들도 가치가 있지만,<br>우리는 오른쪽에 있는 것들에 더 높은 가치를 둔다는 것이다.</p>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/tangram.js"></script>

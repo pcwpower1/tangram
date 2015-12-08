@@ -1,0 +1,39 @@
+{
+	"title": {
+		"ko": "탱그램",
+		"en": "Tangram"
+	},
+	"flag": {
+		"ko": "img/republic.of.korea.png",
+		"en": "img/usa.png"
+	},
+	"flag.width": {
+		"ko": 320,
+		"en": 160
+	},
+	"agile.title": {
+		"ko": "애자일 소프트웨어 개발 선언",
+		"en": "Manifesto for Agile Software Development"
+	},
+	"agile.text1": {
+		"ko": "우리는 소프트웨어를 개발하고, 또 다른 사람의 개발을<br>도와주면서 소프트웨어 개발의 더 나은 방법들을 찾아가고<br>있다. 이 작업을 통해 우리는 다음을 가치 있게 여기게 되었다:",
+		"en": "We are uncovering better ways of developing<br>software by doing it and helping others do it.<br>Through this work we have come to value:"
+	},
+	"agile.text2": {
+		"ko": "공정과 도구보다 <strong>개인과 상호작용</strong>을<br>포괄적인 문서보다 <strong>작동하는 소프트웨어</strong>를<br>계약 협상보다 <strong>고객과의 협력</strong>을<br>계획을 따르기보다 <strong>변화에 대응하기</strong>를",
+		"en": "<strong>Individuals and interactions</strong> over processes and tools<br><strong>Working software</strong> over comprehensive documentation<br><strong>Customer collaboration</strong> over contract negotiation<br><strong>Responding to change</strong> over following a plan"
+	},
+	"agile.text3": {
+		"ko": "가치 있게 여긴다. 이 말은, 왼쪽에 있는 것들도 가치가 있지만,<br>우리는 오른쪽에 있는 것들에 더 높은 가치를 둔다는 것이다.",
+		"en": "That is, while there is value in the items on<br>the right, we value the items on the left more."
+	},
+	"include": "include.html",
+	"include_lang": {
+		"ko": "include.ko.html",
+		"en": "include.en.html"
+	},
+	"included": {
+		"ko": "인클루드 발생",
+		"en": "Included in here"
+	}
+}
